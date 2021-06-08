@@ -59,11 +59,11 @@ namespace TokenBased_GoogleAuthentication_WebAPI
             //    appId: "",
             //    appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "374531620414-an3292pvh3e01jkgvaplkmspoc5kua5t.apps.googleusercontent.com",
+                ClientSecret = "SGaPjG9nJ8hVxk7L5rGuWzLf"
+            });
         }
     }
 }
